@@ -4,25 +4,53 @@
 
 /* Color Palette */
 .color-1{
-    background: red;
+    background: #5E7D7E;
 }
 .color-2{
-    background;white;
+    background: #848B79;
 }
 .color-3{
-    background: blue
+    background: #7F525D;
 }
-
+.color-4{
+    background: #667C26;
+}
+.color-5{
+    background: #728C00;
+}
 /* Textures or Patterns*/
 .pattern-1{
-    background: url(../img/feathers.jpg);
+    background: url(../img/texture%201.jpeg);
 }
 .pattern-2{
-    background: url("../img/flag.jpg)";
+    background: url(../img/texture%202.jpeg);
+}
+.pattern-3{
+    background: url(../img/texture%203.jpeg) ;
+}
+.pattern-4{
+    background: url(../img/texture%204.jpeg);
+}
+.pattern-5{
+    background: url(../img/texture%205.jpeg);
 }
 /* Imagery */
 
-
+.imagery-1{
+    background: url(../img/camera.jpeg);
+}
+.imagery-2{
+    background: url(../img/bicycle.jpeg);
+}
+,imagery-3{
+    background: url(../img/clouds.jpeg);
+}
+.imagery-4{
+    background: url(../img/forest.jpeg);
+}
+.imagery-5{
+    background: url(../img/cat.jpeg);
+}
 /* Icons */
 
 
@@ -30,11 +58,11 @@
 
 a:link,
 a:visited {
-    color: blue;
+    color: gray;
     text-transform: uppercase;
 }
 a:hover {
-    background: red;
+    background: lightblue;
     margin-left: 10px;
 }
 
@@ -45,6 +73,11 @@ a:active {
 /* Typography */
 p{
     font-family: 'Open Sans', sans-serif;
+    font-family: 'ABeeZee', sans-serif;
 }
-
-
+h{
+    font-family: 'ABeeZee', sans-serif;
+}
+nav{
+    font-family: 'ABeeZee', sans-serif;
+}
