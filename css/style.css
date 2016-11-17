@@ -25,8 +25,8 @@ background: #728C00;
     color:white;}
 
 img{
-    height: 350px;
-    padding: 10px;
+    height: 21.875em;
+    padding: .625em;
     
     
     
@@ -42,22 +42,22 @@ div.intro{
 }
 div.exp{
     background: #728C00;
-    width: 625px;
-    height:850px;
+    width: 39.0625em;
+    height:53.125em;
     text-align: center;
     float:right;
     
 }
 div.skill{
     background: #728C00;
-    width:625px;
+    width:39.0625em;
     
     
 }
 div.hobby{
     background: #728C00;
-    width: 625px; 
-    margin-top: -700px;
+    width: 39.0625em; 
+    margin-top: -43.75em;
     text-align: center;
     float:right;
     
@@ -83,7 +83,7 @@ h2{
 
 main {
   background: #7F525D;
-  width: 500px;
+  width: 31.25em;
   margin: 0 auto;
     align-content: center
 }
@@ -91,14 +91,14 @@ main {
 article section {
   background: #667C26;
   float: left;
-  width: 600px;
+  width: 37.5em;
 }
 
 
 p{
-   width:300px;
+   width:18.75em;
     height: auto;
-    padding: 0px 150px;
+    padding: 0 9.375em;
     font-family: 'ABeeZee', sans-serif;
     color: white;
     text-align: justify;
