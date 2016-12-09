@@ -1,84 +1,135 @@
 Body{
-  background: #7F525D;
+  background: white;
+  
 }
+.title {
+    font-size: 70px;
+    background: #5E7D7E;
+    color: white;
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+    padding: 10px;
+    margin-top: -10px;
+}
+.main-photo{
+   width: 1349px;
+    height: 575px;
+    margin-top: -50px;
+
+}
+
+
+
 a:link,
 a:visited {
     color: white;
     text-transform: uppercase;}
 a:hover {
-    background: #848B79;
-    margin-left: 10px;}
+    background: #7F525D;
+    color:white;
+    }
 .navigation li {
   		display: inline-block;
-        margin: 0 0.5em;
+        width: 105px;
+        margin-left: -39px;
+        margin-top: -100px;
         font-family: 'ABeeZee', sans-serif;
         align-content: center;
+        display: flex;
+        flex-flow:column;
+        justify-content: flex-start;
         float: inherit;
         		}
 .navigation li a {
 			display: block;
 			padding: 1em 0.5em;
-        center:text ;
+       
+    color: white;
 		}
-li{
-background: #728C00;
-    color:white;}
 
-img{
+
+li{
+background: #7F525D;
+    
+}
+
+
+.pb{
     height: 21.875em;
     padding: .625em;
-    
-    
-    
-}
-
-
-div.intro{
-    background: #728C00;
-    width: 625px;
-    text-align: center;
-    float:left
+    border: solid #7F525D 10px;
     
 }
-div.exp{
-    background: #728C00;
-    width: 39.0625em;
-    height:53.125em;
-    text-align: center;
-    float:right;
-    
-}
-div.skill{
-    background: #728C00;
-    width:39.0625em;
-    
-    
-}
-div.hobby{
-    background: #728C00;
-    width: 39.0625em; 
-    margin-top: -43.75em;
-    text-align: center;
-    float:right;
-    
-    
-}
-
-
-h1{
+.intro{
+    margin-top: 85px;
     background: #5E7D7E;
     color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+}
+.first-p{
+    background: #848B79;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+}
+.bio{
+    margin-top: 30px;
+}
+
+.second-p{
+    background: #848B79;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+    
+}
+.p2{
+    width: 625px;
+    margin-right: 95px;
+    margin-top: 30px;
+}
+.exxp {
+    background: #5E7D7E;
+    color: white;
+    padding: 10px;
+    margin-top: 95px;
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+}
+.exxp2{
+    background: #5E7D7E;
+    color: white;
+    padding: 10px;
     text-align: center;
     font-family: 'ABeeZee', sans-serif;
     
 }
-h2{
+.third-p{
+    background: #848B79;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between
+}
+.p3{
+    width: 625px;
+    margin-right: 95px;
+    margin-top: 30px;
+}
+
+
+
+.heading {
     background: #5E7D7E;
     color: white;
+    padding: 10px;
+    margin-top: 100px;
     text-align: center;
-    font-family:'ABeeZee', sans-serif;
+    font-family: 'ABeeZee', sans-serif;
     
 }
+
 
 
 main {
@@ -96,43 +147,91 @@ article section {
 
 
 p{
-   width:18.75em;
+    background: #848B79;
+    width:1000px;
     height: auto;
-    padding: 0 9.375em;
+    padding: 0 20px;
+    margin: 10px;
     font-family: 'ABeeZee', sans-serif;
+    font-size: 24px;
     color: white;
-    text-align: justify;
+    text-align: inherit;
 
 }
 
-/* Mobile: 320px = 20em */
+.fourth-p{
+ 
+    background: #848B79;
+    color: white;
+    width: 600px;
+    display:flex;
+    flex-flow: row wrap;
+    
+}
+.info{
+    color:  #667C26;
+    width: 600px;
+    margin-top: -20px;
+    margin-left: 400px;
+    
+}
+.main-photo2{
+    width: 1349px;
+    height: 575px;
+    margin-top: -50px;
+    opacity: 80%;
+}
+.main-photo3{
+        width: 1349px;
+    height: 575px;
+    margin-top: -50px;
+    opacity: 80%;
+}
+.pictures{
+    width: 200px;
+    height: 200px;
+    margin-top: 75px;
+    margin-bottom: -75px;
+    padding: 10px;
+    border: solid #7F525D 10px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-left: 20px;
+    
+    
+}
+.wheel{
+    
+}
+/* Mobile: 320px = 20em 
 @media screen and (min-width: 20em) { 
 
-  /* Diagnostic Styling. */
+  Diagnostic Styling.
 	body {
        background: red;
 	}
 	
 }
 
-/* Tablet:  768px = 160em */
+ Tablet:  768px = 160em 
 @media screen and (min-width: 48em)  {
 
-  /* Diagnostic Styling. */
+  Diagnostic Styling. 
   body {
        background: green;
   }
 
 }
 
-/* Desktop: 1280px = 80em */
+ Desktop: 1280px = 80em
 @media screen and (min-width: 80em) { 
   
-  /* Diagnostic Styling. */
+  Diagnostic Styling. 
   body {
        background: blue;
   }
 
-}
+}*/
 
 
